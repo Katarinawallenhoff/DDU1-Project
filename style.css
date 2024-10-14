@@ -1,21 +1,30 @@
-/*Header*/
+/*Font*/
 
+@font-face {
+    font-family: "Inter";
+    src: url(Inter.ttf);
+}
+
+body{
+    font-family: Inter;
+}
+
+/*Header*/
 
 header {
     display: flex;
-    padding: 20px;
-    border-bottom: 1px solid black;
+    padding: 5px;
+    border-bottom: 1px solid #f4f4f4;
     margin: 0 20px;
     position: fixed;
     right: 0;
     left: 0;
+    background-color: white;
  }
- 
- 
+
  .right img {
     width: 100px;
  }
- 
  
  .right{
     display: flex;
@@ -23,55 +32,96 @@ header {
     align-items: center;
  }
  
- 
  .right nav {
     display: flex;
-    gap: 10px;
+    gap: 2px;
  }
- 
- 
+  
  .right .bear:hover{
-    background-color: lightgray;
+    background-color: #f4f4f4;
+    border-radius: 5px;
  }
- 
  
  a {
     text-decoration: none;
-    padding:10px;
+    padding: 5px 10px;
     color: black;
+    font-size: 13.5px;
  }
- 
  
  .bear{
-    padding: 10px;
-    gap: 10px;
- }
- 
+    padding: 5px;
+ } 
  
  .right .bear img {
     width: 10px;
  }
- 
- 
+  
  #left {
     margin-left: auto;
  }
  
- 
  #left nav {
-    padding: 10px;
+    padding: 5px;
     display: flex;
-   
  }
- 
  
  #left nav a{
-    border-right: 2px solid black;
+    border-right: 2px solid #f4f4f4;
  }
+
+ #left #no-border{
+  border-right: none;
+ }
+
+ #left #first:hover{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+ }
+
+ #left #no-border:hover{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+ }
+
  
- 
- #left #special {
-    background-color: black;
+ #left .special {
+    background-color: #050505;
     color: white;
+    border-radius: 5px;
+ }
+
+ #left .special:hover{
+    background-color: #353535;
  }
  
+
+ /*Content body*/
+
+ #wrapper{
+    max-width: 1000px;
+    padding-top: 100px;
+    margin: 0 auto;
+ }
+
+ #hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 50px 0;
+    gap: 50px;
+    border-bottom: 1px solid #f4f4f4;
+ }
+
+ #hero #first-image img{
+    width: 500px;
+ }
+
+ #wrapper #hero #packs .special {
+    background-color: #050505;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
+
+
