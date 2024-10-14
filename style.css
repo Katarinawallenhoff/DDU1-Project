@@ -1,0 +1,77 @@
+/*Header*/
+
+
+header {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    margin: 0 20px;
+    position: fixed;
+    right: 0;
+    left: 0;
+ }
+ 
+ 
+ .right img {
+    width: 100px;
+ }
+ 
+ 
+ .right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
+ 
+ 
+ .right nav {
+    display: flex;
+    gap: 10px;
+ }
+ 
+ 
+ .right .bear:hover{
+    background-color: lightgray;
+ }
+ 
+ 
+ a {
+    text-decoration: none;
+    padding:10px;
+    color: black;
+ }
+ 
+ 
+ .bear{
+    padding: 10px;
+    gap: 10px;
+ }
+ 
+ 
+ .right .bear img {
+    width: 10px;
+ }
+ 
+ 
+ #left {
+    margin-left: auto;
+ }
+ 
+ 
+ #left nav {
+    padding: 10px;
+    display: flex;
+   
+ }
+ 
+ 
+ #left nav a{
+    border-right: 2px solid black;
+ }
+ 
+ 
+ #left #special {
+    background-color: black;
+    color: white;
+ }
+ 
