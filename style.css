@@ -180,16 +180,6 @@ header {
    font-size: 36px;
 }
 
-#Barkley{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-#Barkley img{
-   width: 50px;
-}
-
 
  /* Start of media queries */
 
