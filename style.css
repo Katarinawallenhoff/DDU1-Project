@@ -139,7 +139,13 @@ header {
     object-fit: contain;
  }
 
- /*third section*/
+ /*Section*/
+
+ .section {
+   padding: 50px 0;
+   border-bottom: 1px solid #f4f4f4;
+   margin: 20px 0;
+ }
 
  .top-text{
    width: 50%;
@@ -150,6 +156,12 @@ header {
    margin-top: 50px;
  }
 
+.quote{
+   padding: 0 20px;
+   color: #999999;
+   text-align: center;
+ }
+
 .small{
    width: 50px;
 }
@@ -157,6 +169,7 @@ header {
    display: flex;
    justify-content: center;
    align-items: center;
+   padding: 20px 0;
  }
 
  .small-text p{
