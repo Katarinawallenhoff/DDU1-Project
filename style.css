@@ -170,9 +170,25 @@ header {
 
 #doggy img{
    width: 100%;
-   box-shadow: 0px 0px 10px 5px rgba(0,0,0,1);
+   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+   margin-bottom: 30px;
 }
 
+#eye h1{
+   text-align: center;
+   padding: 0 20px;
+   font-size: 36px;
+}
+
+#Barkley{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#Barkley img{
+   width: 50px;
+}
 
 
  /* Start of media queries */
