@@ -71,7 +71,7 @@ header {
     border-right: 2px solid #f4f4f4;
  }
 
- #left #no-border{
+  #no-border{
   border-right: none;
  }
 
@@ -180,8 +180,7 @@ header {
 
 .small-section{
    text-align:center;
-   padding: 0 200px;
-   margin-bottom: 100px;
+   padding: 0 200px 50px 200px;
 }
 
 #features {
@@ -205,10 +204,23 @@ header {
    border-bottom: none;
 }
 
+/* Emoji section*/
+
 .small-section p{
    color: rgb(177, 172, 172);
 }
 
 
+.learn {
+   display: flex;
+   text-align: center;
+}
 
+.emojis {
+   padding: 20px;
+   border-right: 1px solid lightgray;
+}
 
+#under{
+   text-decoration: underline;
+}
