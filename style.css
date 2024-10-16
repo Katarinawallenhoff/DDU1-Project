@@ -176,8 +176,38 @@ header {
    margin:0;
  }
 
+ /* Next section */
 
+.small-section{
+   text-align:center;
+   padding: 0 200px;
+   margin-bottom: 100px;
+}
 
+#features {
+   background-color: lightgray;
+   width: 600px;
+   padding: 10px 20px;
+   margin: 0 auto;
+}
+
+.tiny-check {
+   width: 15px;
+}
+
+.text{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: #999999 1px solid;
+}
+
+#border-remove {
+   border-bottom: none;
+}
+
+.small-section p{
+   color: rgb(177, 172, 172);
+}
 
 
 
