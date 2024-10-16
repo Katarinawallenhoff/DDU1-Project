@@ -75,24 +75,24 @@ header {
   border-right: none;
  }
 
- #left #first:hover{
+#first:hover{
     background-color: #f4f4f4;
     border-radius: 5px;
  }
 
- #left #no-border:hover{
+#no-border:hover{
     background-color: #f4f4f4;
     border-radius: 5px;
  }
 
  
- #left .special {
+.special {
     background-color: #050505;
     color: white;
     border-radius: 5px;
  }
 
- #left .special:hover{
+.special:hover{
     background-color: #353535;
  }
  
@@ -106,9 +106,9 @@ header {
     margin: 0 auto;
  }
 
- /* First box */
+ /* top of wrapper */
 
- #hero{
+ .hero{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,25 +117,8 @@ header {
     border-bottom: 1px solid #f4f4f4;
  }
 
- #hero #first-image img{
+.half-picture{
     width: 500px;
- }
-
- #wrapper #hero #packs .special {
-    background-color: #050505;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
- }
-
- #packs h1{
-   font-size: 53px;
-   margin-bottom: 0;
- }
-
- #packs p{
-   margin-top: 0;
-   margin-bottom: 50px;
  }
 
  /* Logotypes */
@@ -156,32 +139,32 @@ header {
     object-fit: contain;
  }
 
+ /*third section*/
 
- /* Second text-box */
-
-#fetch {
-   padding: 50px 0;
+ .top-text{
    width: 50%;
+ }
+
+ .picture{
+   width: 1000px;
+   margin-top: 50px;
+ }
+
+.small{
+   width: 50px;
 }
+ .quote-by{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
 
-#fetch h2{
-   font-size: 26px;
-}
-
-#doggy img{
-   width: 100%;
-   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
-   margin-bottom: 30px;
-}
-
-#eye h1{
-   text-align: center;
-   padding: 0 20px;
-   font-size: 36px;
-}
+ .small-text p{
+   margin:0;
+ }
 
 
- /* Start of media queries */
+
 
 
 
