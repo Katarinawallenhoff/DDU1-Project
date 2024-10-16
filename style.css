@@ -210,7 +210,6 @@ header {
    color: rgb(177, 172, 172);
 }
 
-
 .learn {
    display: flex;
    text-align: center;
@@ -224,3 +223,32 @@ header {
 #under{
    text-decoration: underline;
 }
+
+/* Bottom Section*/
+
+.flex-container{
+   display: flex;
+}
+
+.last {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.precentage {
+   border-right: solid 1px lightgray;
+   flex-grow: 1;
+}
+
+.precentage h2{
+   font-size: 48px;
+}
+
+.ending {
+   text-align: center;
+   padding: 40px 0;
+}
+
+/*footer*/
