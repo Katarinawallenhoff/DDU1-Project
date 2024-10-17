@@ -75,6 +75,10 @@ header {
   border-right: none;
  }
 
+ #hamburger {
+   display: none;
+ }
+
 #first:hover{
     background-color: #f4f4f4;
     border-radius: 5px;
@@ -127,8 +131,7 @@ header {
  #companies {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    align-content: center;
+    column-gap: 30px;
     justify-content: center;
     padding: 30px 0;
     border-bottom: 1px solid #f4f4f4;
@@ -298,6 +301,8 @@ footer{
 /*Media queries - phone version */
 
 @media (max-width: 600px){
+
+   /*header*/
    .right nav{
       display: none;
    }
@@ -305,9 +310,82 @@ footer{
       display: none;
    }
 
+   header{
+      padding: 20px 0;
+      margin: 0 10px;
+   }
+
+   #hamburger {
+      display: block;
+      width: 20px;
+      margin-left: auto;
+   }
+
+   /*top section*/
+
    .hero{
       display: block;
+      text-align: center;
    }
+
+   .hero div{
+      padding: 0 50px;
+   }
+
+   .half-picture {
+      width: 300px;
+   }
+
+   /* Companies*/
+
+   #companies {
+      gap: 20px;
+   }
+
+
+
+   /*next three questions*/
+
+   .top-text{
+      text-align: center;
+      width: 100%;
+   }
+
+   .picture{
+      width: 100%;
+   }
+
+   .last{
+      flex-direction: column;
+   }
+
+   #features{
+      width: 90%;
+      margin-top: 30px;
+   }
+
+   .small-section{
+      padding: 0;
+   }
+
+   .learn{
+      display: block;
+   }
+
+   .flex-container{
+      display: block;
+   }
+
+   .half-picture {
+      width: 90%;
+   }
+
+   .g2{
+      padding: 20px;
+
+   }
+
+   
 
 }
 
