@@ -23,7 +23,7 @@ header {
     background-color: white;
  }
 
- .right img {
+ .right img{
     width: 100px;
  }
  
@@ -252,3 +252,45 @@ header {
 }
 
 /*footer*/
+
+footer{
+   max-width: 1200px;
+   padding: 40px;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+
+.flex-container-two{
+   display: flex;
+   gap: 50px;
+}
+
+#dark{
+   color: black;
+}
+
+.last-barky{
+   width: 100px;
+   margin: 20px 0;
+   padding: 0 20px;
+}
+
+.last-barky-two{
+   padding: 0 20px;
+}
+
+.share{
+   padding: 5px;
+   width: 20px;
+}
+
+.small-columns{
+   padding: 0 20px;
+}
+
+.small-columns p {
+   font-size: 12px;
+   color: gray;
+}
+
