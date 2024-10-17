@@ -112,6 +112,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row-reverse;
     padding: 0 0 50px 0;
     gap: 50px;
     border-bottom: 1px solid #f4f4f4;
@@ -292,5 +293,21 @@ footer{
 .small-columns p {
    font-size: 12px;
    color: gray;
+}
+
+/*Media queries - phone version */
+
+@media (max-width: 600px){
+   .right nav{
+      display: none;
+   }
+   #left{
+      display: none;
+   }
+
+   .hero{
+      display: block;
+   }
+
 }
 
