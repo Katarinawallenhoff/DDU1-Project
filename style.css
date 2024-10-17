@@ -391,6 +391,16 @@ footer{
       padding: 0;
    }
 
+   .flex-container-two{
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+   }
+
+   .small-columns{
+      width: 200px;
+   }
+
 
    
 
