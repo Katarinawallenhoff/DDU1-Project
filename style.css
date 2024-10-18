@@ -5,6 +5,8 @@
     src: url(Inter.ttf);
 }
 
+/*Body*/
+
 body{
     font-family: Inter;
     margin: 0 auto;
@@ -110,7 +112,7 @@ header {
     margin: 0 auto;
  }
 
- /* top of wrapper */
+ /* First box with text*/
 
  .hero{
     display: flex;
@@ -143,7 +145,7 @@ header {
     object-fit: contain;
  }
 
- /*Section*/
+ /*Three part sections*/
 
  .section {
    padding: 50px 0;
@@ -180,7 +182,7 @@ header {
    margin:0;
  }
 
- /* Next section */
+ /* Free plan section */
 
 .small-section{
    text-align:center;
@@ -228,7 +230,12 @@ header {
    text-decoration: underline;
 }
 
-/* Bottom Section*/
+#no-border-two{
+   border-right: none;
+}
+
+
+/* Last section */
 
 .flex-container{
    display: flex;
@@ -345,7 +352,7 @@ footer{
 
 
 
-   /*next three questions*/
+   /* next three sections */
 
    .top-text{
       text-align: center;
@@ -385,6 +392,8 @@ footer{
       padding: 20px;
 
    }
+
+   /*footer*/
 
    footer{
       display: block;
