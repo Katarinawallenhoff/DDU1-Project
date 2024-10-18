@@ -124,8 +124,18 @@ header {
     border-bottom: 1px solid #f4f4f4;
  }
 
+ .gray {
+   color: rgb(160, 153, 153);
+   line-height: 1.5;
+ }
+
 .half-picture{
     width: 500px;
+ }
+
+ .top-text h2{
+   font-size: 32px;
+   font-weight: 550;
  }
 
  /* Logotypes */
@@ -156,16 +166,30 @@ header {
  .top-text{
    width: 50%;
  }
+ 
+ .top-text h2{
+   margin-bottom: 0;
+ }
+
+ .top-text p{
+   margin-top: 10px;
+   font-weight: 400;
+ }
 
  .picture{
    width: 1000px;
    margin-top: 50px;
+   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
  }
 
 .quote{
-   padding: 0 20px;
    color: #999999;
    text-align: center;
+   font-size: 24px;
+ }
+
+ .quote h2{
+   font-weight: 400;
  }
 
 .small{
@@ -175,7 +199,15 @@ header {
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 20px 0;
+   padding: 10px 0;
+ }
+
+ .quote-by p{
+   color: #c2bfbf;
+ }
+
+ .quote-by .author {
+   color: black;
  }
 
  .small-text p{
@@ -248,12 +280,12 @@ header {
    margin-top: 20px;
 }
 
-.precentage {
+.percentage {
    border-right: solid 1px lightgray;
    flex-grow: 1;
 }
 
-.precentage h2{
+.percentage h2{
    font-size: 48px;
 }
 
@@ -352,7 +384,7 @@ footer{
 
 
 
-   /* next three sections */
+   /*next three sections */
 
    .top-text{
       text-align: center;
@@ -392,8 +424,6 @@ footer{
       padding: 20px;
 
    }
-
-   /*footer*/
 
    footer{
       display: block;
