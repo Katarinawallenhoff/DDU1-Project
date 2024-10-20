@@ -73,10 +73,7 @@ header {
     border-right: 2px solid #f4f4f4;
  }
 
-  #no-border{
-  border-right: none;
- }
-
+ 
  #hamburger {
    display: none;
  }
@@ -178,7 +175,7 @@ header {
  }
 
  .picture{
-   width: 1000px;
+   width: 100%;
    margin-top: 50px;
    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
  }
@@ -257,6 +254,10 @@ header {
 
 .small-section p{
    color: rgb(177, 172, 172);
+}
+
+#no-border-two{
+   border-right: none;
 }
 
 .learn {
