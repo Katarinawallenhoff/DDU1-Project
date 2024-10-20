@@ -228,6 +228,7 @@ header {
    width: 600px;
    padding: 10px 20px;
    margin: 0 auto;
+   border-radius: 10px;
 }
 
 .tiny-check {
@@ -311,6 +312,11 @@ footer{
    gap: 50px;
 }
 
+#more{
+   text-decoration: underline;
+   font-size: 16px;
+}
+
 #dark{
    color: black;
 }
@@ -363,6 +369,11 @@ footer{
       margin-left: auto;
    }
 
+   #hamburger:hover {
+      background-color: #f4f4f4;
+      cursor: pointer;
+   }
+
    /*top section*/
 
    .hero{
@@ -370,12 +381,21 @@ footer{
       text-align: center;
    }
 
+   .hero h1{
+      font-size: 45px;
+      margin-bottom: 0;
+   }
+
+
    .hero div{
       padding: 0 50px;
    }
 
    .half-picture {
-      width: 300px;
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+
    }
 
    /* Companies*/
@@ -393,6 +413,10 @@ footer{
       width: 100%;
    }
 
+   .top-text h2{
+      font-weight: 650;
+   }
+
    .last{
       flex-direction: column;
    }
@@ -406,26 +430,35 @@ footer{
       padding: 0;
    }
 
+   .small-section h2{
+      font-size: 36px;
+   }
+
+   .small-section p {
+      padding: 0 20px;
+   }
+
    .learn{
       display: block;
    }
 
    .quote {
       font-size: 15px;
-      padding: 0 10px;
+      padding: 0 50px;
    }
 
    .flex-container{
       display: block;
    }
 
-   .half-picture {
-      width: 90%;
-   }
-
    .g2{
       padding: 20px;
+      display: block;
+      margin: 0 auto;
+   }
 
+   .g2 h4{
+      font-size: 24px;
    }
 
    footer{
@@ -448,6 +481,15 @@ footer{
       display: block;
       margin: 0 auto;
    }
+
+   .ending h2{
+      font-size: 36px;
+      margin-bottom: 0;
+   }
+
+  
+
+
 
 
    
